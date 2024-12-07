@@ -1,6 +1,11 @@
 # Simulasi ATM
 
-Proyek ini adalah program simulasi ATM sederhana yang dikembangkan menggunakan Python. Program ini memungkinkan pengguna untuk melakukan fungsi-fungsi dasar ATM, termasuk mengecek saldo, menarik uang tunai, melakukan setoran, dan mengelola akun.
+Proyek ini adalah **tugas besar mata kuliah Pemrograman Komputer (Prokom)** yang beranggotakan:
+1. **Muhammad Fawwaz Fatih** (I0324055)
+2. **Dzaki Azhar Radhitya** (I0324076)
+3. **Muhammad Salman Alfauzan Diqtaputra** (I0324090)
+
+Proyek ini bertujuan untuk memenuhi tugas besar dalam mata kuliah Prokom. Selain itu, proyek ini memberikan gambaran implementasi pemrograman dalam menciptakan aplikasi berbasis terminal yang berfungsi seperti ATM. Melalui pengembangan ini, mahasiswa dapat mempraktikkan konsep dasar pemrograman seperti struktur data, kondisi logika, fungsi, dan interaksi dengan pengguna.
 
 ## Daftar Isi
 
