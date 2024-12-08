@@ -56,7 +56,7 @@ def main():
             # Simpan perubahan data sebelum keluar
             simpan_data_json(nama_file, users)
             clear_console()
-            print("Terima kasih telah menggunakan layanan ATM. Sampai jumpa!")
+            print("Terima kasih telah menggunakan layanan ATM Bank Fatisda. Sampai jumpa!")
             break
         else:
             print("Pilihan tidak valid.")
