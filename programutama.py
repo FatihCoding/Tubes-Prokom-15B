@@ -24,7 +24,7 @@ def main():
 
         if current_user:
             clear_console()
-            print(f"Selamat datang, {current_user['identitas']}!")
+            print(f"Selamat Datang di Bank Fatisda, {current_user['identitas']}!")
             break
         else:
             percobaan_login -= 1
