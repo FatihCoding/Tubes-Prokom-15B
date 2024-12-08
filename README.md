@@ -1,4 +1,4 @@
-# **Simulasi ATM - Bank Fatisda - Bank Fatisda**
+# **Simulasi ATM - Bank Fatisda **
 
 Proyek ini adalah **tugas besar mata kuliah Pemrograman Komputer (Prokom)** yang beranggotakan:  
 
