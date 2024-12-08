@@ -42,10 +42,19 @@ def tarik_uang(current_user, otp_input_func):
     Returns:
         str or None: Ringkasan transaksi jika berhasil, None jika gagal.
     """
-    jumlah = int(input("\nMasukkan jumlah penarikan: Rp "))
-    if jumlah > current_user['saldo']:
-        print("Saldo tidak mencukupi.")
-        return None
+    while True:
+        try:
+            jumlah = int(input("\nMasukkan jumlah penarikan: Rp "))
+            if jumlah <= 0:
+                print("Jumlah harus bilangan positif.")
+                continue
+            if jumlah > current_user['saldo']:
+                print("Saldo tidak mencukupi.")
+                continue
+            break
+        except ValueError:
+            print("Input harus berupa angka.")
+    
     otp = buat_otp()
     print(f"Kode OTP Anda: {otp}")
     otp_input = otp_input_func("Masukkan kode OTP untuk melanjutkan: ")
@@ -68,7 +77,16 @@ def setor_tunai(current_user):
     Returns:
         str: Ringkasan transaksi.
     """
-    jumlah = int(input("\nMasukkan jumlah setoran: Rp "))
+    while True:
+        try:
+            jumlah = int(input("\nMasukkan jumlah setoran: Rp "))
+            if jumlah <= 0:
+                print("Jumlah harus bilangan positif.")
+                continue
+            break
+        except ValueError:
+            print("Input harus berupa angka.")
+
     current_user['saldo'] += jumlah
     print(f"Setor tunai berhasil. Saldo Anda sekarang: Rp {current_user['saldo']}")
     riwayat = f"Setor Tunai - Rp {jumlah}"
@@ -76,26 +94,41 @@ def setor_tunai(current_user):
     return riwayat
 
 
-def transfer_uang(current_user, users):
+def transfer_uang(current_user, users, nama_file):
     """
     Melakukan transfer uang ke pengguna lain.
     Args:
         current_user (dict): Data pengguna yang sedang aktif.
         users (list): Daftar pengguna lain.
+        nama_file (str): Nama file database untuk menyimpan perubahan.
 
     Returns:
         str or None: Ringkasan transaksi jika berhasil, None jika gagal.
     """
-    rekening_tujuan = input("\nMasukkan nomor rekening tujuan: ")
-    penerima = next((user for user in users if user['rekening'] == rekening_tujuan), None)
-    if not penerima:
-        print("Rekening tujuan tidak ditemukan.")
-        return None
+    while True:
+        rekening_tujuan = input("\nMasukkan nomor rekening tujuan: ")
+        if rekening_tujuan == current_user['rekening']:
+            print("Anda tidak dapat mentransfer ke rekening sendiri.")
+            continue
 
-    jumlah = int(input("Masukkan jumlah transfer: Rp "))
-    if jumlah > current_user['saldo']:
-        print("Saldo tidak mencukupi.")
-        return None
+        penerima = next((user for user in users if user['rekening'] == rekening_tujuan), None)
+        if not penerima:
+            print("Rekening tujuan tidak ditemukan.")
+            continue
+        break
+
+    while True:
+        try:
+            jumlah = int(input("Masukkan jumlah transfer: Rp "))
+            if jumlah <= 0:
+                print("Jumlah harus bilangan positif.")
+                continue
+            if jumlah > current_user['saldo']:
+                print("Saldo tidak mencukupi.")
+                continue
+            break
+        except ValueError:
+            print("Input harus berupa angka.")
 
     otp = buat_otp()
     print(f"Kode OTP Anda: {otp}")
@@ -110,6 +143,10 @@ def transfer_uang(current_user, users):
 
         riwayat_penerima = f"Transfer Masuk - Rp {jumlah} dari {current_user['identitas']} ({current_user['rekening']})"
         penerima.setdefault('riwayat', []).append(riwayat_penerima)
+
+        # Simpan perubahan ke database
+        from moduldatapengguna import simpan_data_json
+        simpan_data_json(nama_file, users)
 
         return riwayat_pengirim
     print("Kode OTP salah. Transfer dibatalkan.")
