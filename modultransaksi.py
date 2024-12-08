@@ -8,7 +8,6 @@ def buat_otp():
     """
     return random.randint(100000, 999999)
 
-
 def validasi_otp(otp, input_otp):
     """
     Validasi OTP yang dimasukkan pengguna.
@@ -66,7 +65,6 @@ def tarik_uang(current_user, otp_input_func):
         return riwayat
     print("Kode OTP salah. Penarikan dibatalkan.")
     return None
-
 
 def setor_tunai(current_user):
     """
