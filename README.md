@@ -35,28 +35,6 @@ Simulasi ATM - Bank Fatisda - Bank Fatisda ini menyediakan fitur-fitur berikut:
 8. **Keluar**: Mengakhiri sesi penggunaan ATM - Bank Fatisda.  
 
 ---
-
-## **Instalasi**
-
-1. Clone repositori ini ke komputer Anda dengan perintah berikut:  
-   ```bash  
-   git clone https://github.com/username-anda/atm-simulation.git  
-   ```  
-
-2. Arahkan terminal ke direktori proyek:  
-   ```bash  
-   cd atm-simulation  
-   ```  
-
-3. Pastikan Anda telah menginstal Python 3 di sistem Anda. Anda dapat memeriksanya dengan perintah:  
-   ```bash  
-   python --version  
-   ```  
-
-4. Jalankan file Python menggunakan Python 3.  
-
----
-
 ## **Penggunaan**
 
 1. Jalankan program dengan perintah berikut:  
