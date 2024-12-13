@@ -125,7 +125,7 @@ Fitur ini memungkinkan pengguna untuk melihat riwayat transaksi mereka, termasuk
 - Informasi yang disimpan mencakup jenis transaksi, jumlah, tanggal, dan pihak yang terlibat (untuk transfer).  
 
 ### **Keamanan Data**  
-- PIN pengguna disimpan dalam bentuk hash menggunakan algoritma SHA-256 untuk menjaga kerahasiaan data.  
+- PIN pengguna disimpan untuk menjaga kerahasiaan data.  
 
 ### **Pemulihan Data**  
 - Saat program dijalankan kembali, file `accounts.json` akan dibaca untuk memuat data pengguna, termasuk saldo terbaru dan riwayat transaksi.  
@@ -133,9 +133,9 @@ Fitur ini memungkinkan pengguna untuk melihat riwayat transaksi mereka, termasuk
 ### **Contoh Riwayat Transaksi**  
 ```plaintext  
 Riwayat Transaksi:  
-1. [2024-12-03 10:00:00] Setoran Tunai: Rp100.000  
-2. [2024-12-03 10:05:00] Transfer Uang: Rp50.000 ke ID 67890  
-3. [2024-12-03 10:10:00] Penarikan Tunai: Rp30.000  
+1. Setoran Tunai: Rp100.000  
+2. Transfer Uang: Rp50.000 ke ID 67890  
+3. Penarikan Tunai: Rp30.000  
 ```  
 
 Dengan fitur ini, aplikasi ATM - Bank Fatisda dapat menyimpan data secara persisten, memastikan informasi tetap konsisten dan dapat diakses kapan saja.  
