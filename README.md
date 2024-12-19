@@ -120,6 +120,10 @@ Dengan fitur ini, aplikasi ATM - Bank Fatisda dapat menyimpan data secara persis
 
 ---
 
+### **Flowchart Program**  
+![Flowchart_Tubesl (2)](https://github.com/user-attachments/assets/ba9e4f8f-7e8d-4411-8f57-6a3a6d609484)
+
+
 ## **Penutup**
 
 Proyek **Simulasi ATM - Bank Fatisda - Bank Fatisda** ini merupakan wujud nyata dari implementasi konsep pemrograman yang telah dipelajari selama perkuliahan. Dengan menampilkan fitur-fitur yang relevan dan mendekati fungsi nyata sebuah ATM - Bank Fatisda, proyek ini dirancang tidak hanya untuk memenuhi tugas besar mata kuliah Pemrograman Komputer, tetapi juga sebagai pengalaman belajar yang berharga dalam pengembangan aplikasi berbasis terminal.  
