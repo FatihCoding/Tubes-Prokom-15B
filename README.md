@@ -20,7 +20,7 @@ Proyek ini bertujuan untuk memenuhi tugas besar dalam mata kuliah Prokom. Selain
 6. [Penutup](#penutup)  
 
 ---
-## **Libraty**
+## **Library**
 
 Library yang kita gunakan adalah:
 
@@ -139,7 +139,7 @@ Dengan fitur ini, aplikasi ATM - Bank Fatisda dapat menyimpan data secara persis
 ---
 
 ### **Flowchart Program**  
-![Uploading flowchart revisi.png…]()
+![flowchart revisi](https://github.com/user-attachments/assets/86d76ae8-d711-43d6-8f8c-6a416de13b8a)
 
 
 ## **Penutup**
