@@ -20,7 +20,23 @@ Proyek ini bertujuan untuk memenuhi tugas besar dalam mata kuliah Prokom. Selain
 6. [Penutup](#penutup)  
 
 ---
+## **Libraty**
 
+Library yang kita gunakan adalah:
+
+1. os: Digunakan untuk memanipulasi dan mengelola file serta menjalankan perintah sistem. Dalam kode ini, digunakan untuk membersihkan konsol (fungsi clear_console()).
+
+2. json: Digunakan untuk membaca dan menulis data dalam format JSON. Ini digunakan untuk memuat dan menyimpan data pengguna ke dalam file JSON (muat_data_json() dan simpan_data_json()).
+
+3. random: Digunakan untuk menghasilkan angka acak, yang dalam hal ini digunakan untuk menghasilkan kode OTP (generate_otp()).
+
+4. datetime: Digunakan untuk bekerja dengan tanggal dan waktu. Dalam kode ini, digunakan untuk mendapatkan waktu saat ini dan menghitung waktu kedaluwarsa OTP (timedelta) dan untuk menyimpan waktu transaksi (datetime.now()).
+
+5. smtplib: Digunakan untuk mengirim email menggunakan protokol SMTP (Simple Mail Transfer Protocol). Digunakan dalam fungsi kirim_otp_email() untuk mengirimkan kode OTP ke alamat email pengguna.
+
+6. email.mime.text dan email.mime.multipart: Digunakan untuk membuat dan mengirim email dengan format MIME. MIMEText digunakan untuk mengirimkan pesan teks biasa, dan MIMEMultipart digunakan untuk membuat email dengan beberapa bagian (seperti subjek, pengirim, penerima, dan isi).
+
+---
 ## **Fitur**
 
 Simulasi ATM - Bank Fatisda - Bank Fatisda ini menyediakan fitur-fitur berikut:  
