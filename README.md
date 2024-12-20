@@ -70,22 +70,25 @@ Selamat Datang di Simulasi ATM - Bank Fatisda - Bank Fatisda
 Masukkan ID Pengguna Anda: 12345  
 Masukkan PIN Anda: ****  
 
-Pilihan:  
-1. Cek Saldo  
-2. Tarik Uang  
-3. Setor Tunai  
-4. Transfer Uang  
-5. Ganti PIN  
-6. Lihat Riwayat Transaksi  
-7. Informasi Akun  
-0. Keluar  
+=== MENU UTAMA ===
+1. Cek Saldo
+2. Tarik Uang
+3. Setor Tunai
+4. Transfer Uang
+5. Lihat Riwayat Transaksi
+6. Informasi Akun
+7. Ganti PIN
+0. Keluar 
 
 Masukkan pilihan: 1  
 Saldo Anda adalah: Rp500.000  
 
 Masukkan pilihan: 4  
-Masukkan ID tujuan transfer: 67890  
-Masukkan jumlah transfer: Rp100.000  
+Masukkan ID tujuan transfer: 100101  
+Masukkan jumlah transfer: Rp100.000
+Masukkan email anda: xxxxx@gmail.com
+OTP telah dikirim
+Masukkan OTP anda: 576898
 Transfer berhasil! Saldo Anda sekarang: Rp400.000  
 
 Masukkan pilihan: 0  
@@ -110,10 +113,9 @@ Fitur ini memungkinkan pengguna untuk melihat riwayat transaksi mereka, termasuk
 
 ### **Contoh Riwayat Transaksi**  
 ```plaintext  
-Riwayat Transaksi:  
-1. Setoran Tunai: Rp100.000  
-2. Transfer Uang: Rp50.000 ke ID 67890  
-3. Penarikan Tunai: Rp30.000  
+Tanggal: 2024-12-20
+  - 20:42:34 | Tarik Tunai | Rp -1.000
+  - 20:45:13 | Setor Tunai | Rp 200.000
 ```  
 
 Dengan fitur ini, aplikasi ATM - Bank Fatisda dapat menyimpan data secara persisten, memastikan informasi tetap konsisten dan dapat diakses kapan saja.  
@@ -121,7 +123,7 @@ Dengan fitur ini, aplikasi ATM - Bank Fatisda dapat menyimpan data secara persis
 ---
 
 ### **Flowchart Program**  
-![Flowchart_Tubesl (2)](https://github.com/user-attachments/assets/ba9e4f8f-7e8d-4411-8f57-6a3a6d609484)
+![alttext(https://github.com/FatihCoding/TubesProkom-15B/blob/fd5d3bf0321fb19bac3e5d0003778cb25be2d6d7/Flowchart_Revisi.png?raw=true)
 
 
 ## **Penutup**
