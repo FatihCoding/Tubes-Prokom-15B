@@ -139,7 +139,7 @@ Dengan fitur ini, aplikasi ATM - Bank Fatisda dapat menyimpan data secara persis
 ---
 
 ### **Flowchart Program**  
-![alttext(https://github.com/FatihCoding/TubesProkom-15B/blob/fd5d3bf0321fb19bac3e5d0003778cb25be2d6d7/Flowchart_Revisi.png?raw=true)
+![Uploading flowchart revisi.png…]()
 
 
 ## **Penutup**
