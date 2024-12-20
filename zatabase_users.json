@@ -1,0 +1,631 @@
+[
+    {
+        "identitas": "Ahmad Fauzan",
+        "rekening": "100101",
+        "pin": "123456",
+        "saldo": 3846881,
+        "kontak": {
+            "whatsapp": "08123456789",
+            "email": "ahmad@example.com"
+        },
+        "riwayat_transaksi": [
+            {
+                "jenis": "Penarikan",
+                "jumlah": 123123,
+                "saldo_akhir": 4858900,
+                "waktu": "2024-12-18 10:00:00"
+            },
+            {
+                "jenis": "Penarikan",
+                "jumlah": 100000,
+                "saldo_akhir": 4858900,
+                "waktu": "2024-12-18 10:05:00"
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 1000000,
+                "saldo_akhir": 4858900,
+                "waktu": "2024-12-18 10:10:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 100000,
+                "saldo_akhir": 4858900,
+                "rekening_tujuan": "100102",
+                "waktu": "2024-12-18 10:15:00"
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 500000,
+                "saldo_akhir": 4858900,
+                "waktu": "2024-12-18 10:20:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 1500000,
+                "saldo_akhir": 4858900,
+                "rekening_tujuan": "100102",
+                "waktu": "2024-12-18 10:30:00"
+            },
+            {
+                "jenis": "Transfer Masuk",
+                "jumlah": 200000,
+                "saldo_akhir": 4858900,
+                "rekening_asal": "100102",
+                "waktu": "2024-12-18 10:35:00"
+            },
+            {
+                "jenis": "Penarikan",
+                "jumlah": 100000,
+                "saldo_akhir": 4858900,
+                "waktu": "2024-12-18 10:40:00"
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 100000,
+                "saldo_akhir": 4858900,
+                "waktu": "2024-12-18 10:45:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 1000000,
+                "saldo_akhir": 4858900,
+                "rekening_tujuan": "100102",
+                "waktu": "2024-12-18 10:50:00"
+            }
+        ],
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Tarik Tunai",
+                    "jumlah": -1000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:42:34"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 200000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:45:13"
+                },
+                {
+                    "deskripsi": "Tarik Tunai",
+                    "jumlah": -100,
+                    "tanggal": "2024-12-20",
+                    "waktu": "21:38:17"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 1000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "21:38:22"
+                },
+                {
+                    "deskripsi": "Transfer ke Citra Wulan",
+                    "jumlah": -1200000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "21:38:32"
+                },
+                {
+                    "deskripsi": "Transfer ke Siti Aisyah",
+                    "jumlah": -11919,
+                    "tanggal": "2024-12-20",
+                    "waktu": "22:10:20"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Siti Aisyah",
+        "rekening": "100102",
+        "pin": "654321",
+        "saldo": 5711919,
+        "kontak": {
+            "whatsapp": "08234567890",
+            "email": "siti@example.com"
+        },
+        "riwayat_transaksi": [
+            {
+                "jenis": "Transfer Masuk",
+                "jumlah": 100000,
+                "saldo_akhir": 5700000,
+                "rekening_asal": "100101",
+                "waktu": "2024-12-18 09:00:00"
+            },
+            {
+                "jenis": "Transfer Masuk",
+                "jumlah": 100000,
+                "saldo_akhir": 5700000,
+                "rekening_asal": "100101",
+                "waktu": "2024-12-18 09:05:00"
+            },
+            {
+                "jenis": "Transfer Masuk",
+                "jumlah": 100000,
+                "saldo_akhir": 5700000,
+                "rekening_asal": "100101",
+                "waktu": "2024-12-18 09:10:00"
+            },
+            {
+                "jenis": "Transfer Masuk",
+                "jumlah": 1500000,
+                "saldo_akhir": 5700000,
+                "rekening_asal": "100101",
+                "waktu": "2024-12-18 09:15:00"
+            },
+            {
+                "jenis": "Penarikan",
+                "jumlah": 100000,
+                "saldo_akhir": 5700000,
+                "waktu": "2024-12-18 09:20:00"
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 200000,
+                "saldo_akhir": 5700000,
+                "waktu": "2024-12-18 09:25:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 200000,
+                "saldo_akhir": 5700000,
+                "rekening_tujuan": "100101",
+                "waktu": "2024-12-18 09:30:00"
+            },
+            {
+                "jenis": "Penarikan",
+                "jumlah": 100000,
+                "saldo_akhir": 5700000,
+                "waktu": "2024-12-18 09:35:00"
+            },
+            {
+                "jenis": "Transfer Masuk",
+                "jumlah": 1000000,
+                "saldo_akhir": 5700000,
+                "rekening_asal": "100101",
+                "waktu": "2024-12-18 09:40:00"
+            }
+        ],
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer dari Ahmad Fauzan",
+                    "jumlah": 11919,
+                    "tanggal": "2024-12-20",
+                    "waktu": "22:10:20"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Budi Santoso",
+        "rekening": "100103",
+        "pin": "111111",
+        "saldo": 6595000,
+        "kontak": {
+            "whatsapp": "08345678901",
+            "email": "budi@example.com"
+        },
+        "riwayat_transaksi": [
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 145000,
+                "saldo_akhir": 6795000,
+                "waktu": "2024-12-18 08:00:00"
+            },
+            {
+                "jenis": "Tarik Tunai",
+                "jumlah": 10000,
+                "saldo_akhir": 7285000,
+                "waktu": "2024-12-18 08:05:00"
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 10000,
+                "saldo_akhir": 7295000,
+                "waktu": "2024-12-18 08:10:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 200000,
+                "saldo_akhir": 7095000,
+                "rekening_tujuan": "100102",
+                "waktu": "2024-12-18 08:15:00"
+            },
+            {
+                "jenis": "Tarik Tunai",
+                "jumlah": 10000,
+                "saldo_akhir": 7085000,
+                "waktu": "2024-12-18 08:20:00"
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 10000,
+                "saldo_akhir": 7095000,
+                "waktu": "2024-12-18 08:25:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 200000,
+                "saldo_akhir": 6895000,
+                "rekening_tujuan": "100104",
+                "waktu": "2024-12-18 08:30:00"
+            },
+            {
+                "jenis": "Tarik Tunai",
+                "jumlah": 100000,
+                "saldo_akhir": 6795000,
+                "waktu": "2024-12-18 08:35:00"
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 100000,
+                "saldo_akhir": 6895000,
+                "waktu": "2024-12-18 08:40:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 100000,
+                "saldo_akhir": 6795000,
+                "rekening_tujuan": "100104",
+                "waktu": "2024-12-18 08:45:00"
+            },
+            {
+                "jenis": "Tarik Tunai",
+                "jumlah": 100000,
+                "saldo_akhir": 6695000,
+                "rekening_tujuan": null
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 100000,
+                "saldo_akhir": 6795000,
+                "rekening_tujuan": null
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 100000,
+                "saldo_akhir": 6695000,
+                "rekening_tujuan": "100104"
+            }
+        ],
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Tarik Tunai",
+                    "jumlah": -100000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:05:22"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 100000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:05:29"
+                },
+                {
+                    "deskripsi": "Transfer ke Citra Wulan",
+                    "jumlah": -100000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:07:04"
+                }
+            ]
+        },
+        "email": "m.salman.4dp@gmail.com"
+    },
+    {
+        "identitas": "Citra Wulan",
+        "rekening": "100104",
+        "pin": "222222",
+        "saldo": 5500000,
+        "kontak": {
+            "whatsapp": "08456789012",
+            "email": "citra@example.com"
+        },
+        "riwayat_transaksi": [
+            {
+                "jenis": "Terima Transfer",
+                "jumlah": 200000,
+                "saldo_akhir": 4200000,
+                "rekening_asal": "100103",
+                "waktu": "2024-12-18 07:30:00"
+            },
+            {
+                "jenis": "Terima Transfer",
+                "jumlah": 100000,
+                "saldo_akhir": 4300000,
+                "rekening_asal": "100103",
+                "waktu": "2024-12-18 07:40:00"
+            },
+            {
+                "jenis": "Terima Transfer",
+                "jumlah": 100000,
+                "saldo_akhir": 4400000,
+                "rekening_tujuan": "100103"
+            }
+        ],
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer dari Budi Santoso",
+                    "jumlah": 100000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:07:04"
+                },
+                {
+                    "deskripsi": "Tarik Tunai",
+                    "jumlah": -10000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:20:52"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 10000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:20:57"
+                },
+                {
+                    "deskripsi": "Transfer ke Dewi Kurnia",
+                    "jumlah": -200000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:21:53"
+                },
+                {
+                    "deskripsi": "Transfer dari Ahmad Fauzan",
+                    "jumlah": 1200000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "21:38:32"
+                }
+            ]
+        },
+        "email": "m.salman.4dp@gmail.com"
+    },
+    {
+        "identitas": "Dewi Kurnia",
+        "rekening": "100105",
+        "pin": "333333",
+        "saldo": 8533333,
+        "kontak": {
+            "whatsapp": "08567890123",
+            "email": "dewi@example.com"
+        },
+        "riwayat_transaksi": [],
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer dari Citra Wulan",
+                    "jumlah": 200000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:21:53"
+                },
+                {
+                    "deskripsi": "Transfer dari Eka Pratama",
+                    "jumlah": 333333,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:06:28"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Eka Pratama",
+        "rekening": "100106",
+        "pin": "444444",
+        "saldo": 788748,
+        "kontak": {
+            "whatsapp": "08678901234",
+            "email": "eka@example.com"
+        },
+        "riwayat_transaksi": [],
+        "email": "m.salman.4dp@gmail.com",
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer ke Fadli Ramadhan",
+                    "jumlah": -76,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:41:29"
+                },
+                {
+                    "deskripsi": "Transfer ke Fadli Ramadhan",
+                    "jumlah": -87,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:42:52"
+                },
+                {
+                    "deskripsi": "Transfer ke Fadli Ramadhan",
+                    "jumlah": -76,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:46:26"
+                },
+                {
+                    "deskripsi": "Transfer dari Fadli Ramadhan",
+                    "jumlah": 121212,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:04:00"
+                },
+                {
+                    "deskripsi": "Transfer ke Dewi Kurnia",
+                    "jumlah": -333333,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:06:28"
+                },
+                {
+                    "deskripsi": "Transfer dari Rina Lestari",
+                    "jumlah": 98,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:11:04"
+                },
+                {
+                    "deskripsi": "Transfer dari Fadli Ramadhan",
+                    "jumlah": 1010,
+                    "tanggal": "2024-12-20",
+                    "waktu": "22:13:48"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Fadli Ramadhan",
+        "rekening": "100107",
+        "pin": "555555",
+        "saldo": 7878017,
+        "kontak": {
+            "whatsapp": "08789012345",
+            "email": "fadli@example.com"
+        },
+        "riwayat_transaksi": [
+            {
+                "jenis": "Penarikan",
+                "jumlah": 100000,
+                "saldo_akhir": 6000000,
+                "waktu": "2024-12-18 11:00:00"
+            },
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 200000,
+                "saldo_akhir": 6000000,
+                "waktu": "2024-12-18 11:05:00"
+            }
+        ],
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer dari Eka Pratama",
+                    "jumlah": 76,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:41:29"
+                },
+                {
+                    "deskripsi": "Transfer dari Eka Pratama",
+                    "jumlah": 87,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:42:52"
+                },
+                {
+                    "deskripsi": "Transfer dari Eka Pratama",
+                    "jumlah": 76,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:46:26"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 2000000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "19:49:18"
+                },
+                {
+                    "deskripsi": "Tarik Tunai",
+                    "jumlah": -200000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:01:33"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 200000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:01:47"
+                },
+                {
+                    "deskripsi": "Transfer ke Eka Pratama",
+                    "jumlah": -121212,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:04:00"
+                },
+                {
+                    "deskripsi": "Transfer ke Eka Pratama",
+                    "jumlah": -1010,
+                    "tanggal": "2024-12-20",
+                    "waktu": "22:13:48"
+                }
+            ]
+        },
+        "email": "dzakiazharradhitya@gmail.com"
+    },
+    {
+        "identitas": "Nurul Fikri",
+        "rekening": "100108",
+        "pin": "666666",
+        "saldo": 4000000,
+        "kontak": {
+            "whatsapp": "08890123456",
+            "email": "nurul@example.com"
+        },
+        "riwayat_transaksi": [
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 500000,
+                "saldo_akhir": 4000000,
+                "waktu": "2024-12-18 12:00:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 200000,
+                "saldo_akhir": 3800000,
+                "rekening_tujuan": "100107",
+                "waktu": "2024-12-18 12:05:00"
+            }
+        ]
+    },
+    {
+        "identitas": "Rina Lestari",
+        "rekening": "100109",
+        "pin": "777777",
+        "saldo": 8999902,
+        "kontak": {
+            "whatsapp": "08901234567",
+            "email": "rina@example.com"
+        },
+        "riwayat_transaksi": [
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 500000,
+                "saldo_akhir": 9000000,
+                "waktu": "2024-12-18 13:00:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 1000000,
+                "saldo_akhir": 8000000,
+                "rekening_tujuan": "100101",
+                "waktu": "2024-12-18 13:05:00"
+            }
+        ],
+        "email": "fathan.annaba271@gmail.com",
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer ke Eka Pratama",
+                    "jumlah": -98,
+                    "tanggal": "2024-12-20",
+                    "waktu": "20:11:04"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Tariq Budi",
+        "rekening": "100110",
+        "pin": "888888",
+        "saldo": 11000000,
+        "kontak": {
+            "whatsapp": "08912345678",
+            "email": "tariq@example.com"
+        },
+        "riwayat_transaksi": [
+            {
+                "jenis": "Setor Tunai",
+                "jumlah": 500000,
+                "saldo_akhir": 11000000,
+                "waktu": "2024-12-18 14:00:00"
+            },
+            {
+                "jenis": "Transfer",
+                "jumlah": 2000000,
+                "saldo_akhir": 9000000,
+                "rekening_tujuan": "100102",
+                "waktu": "2024-12-18 14:05:00"
+            }
+        ]
+    }
+]
