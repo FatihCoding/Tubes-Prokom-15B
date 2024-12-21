@@ -50,7 +50,7 @@ def main():
 
         if current_user:
             CoreUtils.clear_console()
-            print(f"Selamat datang, {current_user['identitas']}!")
+            print(f"Selamat datang di ATM Fatisda, {current_user['identitas']}!")
             break
         else:
             login_attempts -= 1
@@ -66,7 +66,7 @@ def main():
         while display_menu(current_user, users):
             pass
         CoreUtils.save_users(users_file, users)
-        print("Terima kasih telah menggunakan layanan kami.")
+        print("Terima kasih telah menggunakan layanan ATM Fatisda.")
 
 if __name__ == "__main__":
     CoreUtils.clear_console()
