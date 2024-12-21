@@ -1,0 +1,268 @@
+[
+    {
+        "identitas": "Ahmad Fauzan",
+        "rekening": "100101",
+        "pin": "123456",
+        "saldo": 5097989,
+        "email": null,
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Penarikan",
+                    "jumlah": -123123,
+                    "tanggal": "2024-12-20",
+                    "waktu": "09:00:00"
+                },
+                {
+                    "deskripsi": "Penarikan",
+                    "jumlah": -100000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "10:00:00"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 1000000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "11:00:00"
+                },
+                {
+                    "deskripsi": "Transfer ke Siti Aisyah (100102)",
+                    "jumlah": -100000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "12:00:00"
+                }
+            ],
+            "2024-12-21": [
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 500000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "13:00:00"
+                },
+                {
+                    "deskripsi": "Transfer ke Siti Aisyah (100102)",
+                    "jumlah": -1500000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "14:00:00"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Siti Aisyah",
+        "rekening": "100102",
+        "pin": "654321",
+        "saldo": 5500000,
+        "email": null,
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer Masuk dari Ahmad Fauzan (100101)",
+                    "jumlah": 100000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "12:00:00"
+                }
+            ],
+            "2024-12-21": [
+                {
+                    "deskripsi": "Transfer Masuk dari Ahmad Fauzan (100101)",
+                    "jumlah": 1500000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "14:00:00"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Budi Santoso",
+        "rekening": "100103",
+        "pin": "111111",
+        "saldo": 7145000,
+        "email": null,
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 145000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "15:00:00"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Citra Wulan",
+        "rekening": "100104",
+        "pin": "222222",
+        "saldo": 3990000,
+        "email": null,
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Penarikan",
+                    "jumlah": -10000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "16:00:00"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Dewi Kurnia",
+        "rekening": "100105",
+        "pin": "333333",
+        "saldo": 8000000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Eka Pratama",
+        "rekening": "100106",
+        "pin": "444444",
+        "saldo": 1000000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Fadli Ramadhan",
+        "rekening": "100107",
+        "pin": "555555",
+        "saldo": 6000000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Gilang Perdana",
+        "rekening": "100108",
+        "pin": "666666",
+        "saldo": 2000000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Hadi Prakoso",
+        "rekening": "100109",
+        "pin": "777777",
+        "saldo": 9000000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Indah Maharani",
+        "rekening": "100110",
+        "pin": "888888",
+        "saldo": 4500000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Joko Saputra",
+        "rekening": "100111",
+        "pin": "999999",
+        "saldo": 3500000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Karina Putri",
+        "rekening": "100112",
+        "pin": "121212",
+        "saldo": 1500000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Lina Surya",
+        "rekening": "100113",
+        "pin": "131313",
+        "saldo": 500000,
+        "email": null,
+        "riwayat": {}
+    },
+    {
+        "identitas": "Mukti Andika",
+        "rekening": "100114",
+        "pin": "141414",
+        "saldo": 8851413,
+        "email": "fafathepik@gmail.com",
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer Masuk dari Nurul Fikri",
+                    "jumlah": 10000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "17:59:06"
+                }
+            ],
+            "2024-12-21": [
+                {
+                    "deskripsi": "Transfer dari Nurul Fikri",
+                    "jumlah": 1000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "10:05:08"
+                },
+                {
+                    "deskripsi": "Transfer ke Nurul Fikri",
+                    "jumlah": -1000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "10:07:23"
+                }
+            ]
+        }
+    },
+    {
+        "identitas": "Nurul Fikri",
+        "rekening": "100115",
+        "pin": "151515",
+        "saldo": 7157586,
+        "email": "dzakiazharradhitya@gmail.com",
+        "riwayat": {
+            "2024-12-20": [
+                {
+                    "deskripsi": "Transfer ke Mukti Andika",
+                    "jumlah": -10000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "17:59:06"
+                },
+                {
+                    "deskripsi": "Tarik Tunai",
+                    "jumlah": -1000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "18:05:56"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 1000,
+                    "tanggal": "2024-12-20",
+                    "waktu": "18:06:00"
+                }
+            ],
+            "2024-12-21": [
+                {
+                    "deskripsi": "Tarik Tunai",
+                    "jumlah": -1000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "10:03:22"
+                },
+                {
+                    "deskripsi": "Setor Tunai",
+                    "jumlah": 1000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "10:03:28"
+                },
+                {
+                    "deskripsi": "Transfer ke Mukti Andika",
+                    "jumlah": -1000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "10:05:08"
+                },
+                {
+                    "deskripsi": "Transfer dari Mukti Andika",
+                    "jumlah": 1000,
+                    "tanggal": "2024-12-21",
+                    "waktu": "10:07:23"
+                }
+            ]
+        }
+    }
+]
